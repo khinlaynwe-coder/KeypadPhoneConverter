@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeypadPhoneConverter", "KeypadPhoneConverter\KeypadPhoneConverter.csproj", "{40AEE78E-9828-4CD9-80AF-961444E87F87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeypadPhoneConverter", "KeypadPhoneConverter\KeypadPhoneConverter.csproj", "{40AEE78E-9828-4CD9-80AF-961444E87F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeypadPhoneConverter.Infrastructure", "KeypadPhoneConverter.Infrastructure\KeypadPhoneConverter.Infrastructure.csproj", "{F4F918BE-1E3E-4396-AA63-1D3F314046F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeypadPhoneConverter.Service", "KeypadPhoneConverter.Service\KeypadPhoneConverter.Service.csproj", "{FB82BDC2-F85A-4503-BC61-61E7CE951CFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{40AEE78E-9828-4CD9-80AF-961444E87F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AEE78E-9828-4CD9-80AF-961444E87F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AEE78E-9828-4CD9-80AF-961444E87F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F918BE-1E3E-4396-AA63-1D3F314046F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F918BE-1E3E-4396-AA63-1D3F314046F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F918BE-1E3E-4396-AA63-1D3F314046F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F918BE-1E3E-4396-AA63-1D3F314046F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB82BDC2-F85A-4503-BC61-61E7CE951CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB82BDC2-F85A-4503-BC61-61E7CE951CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB82BDC2-F85A-4503-BC61-61E7CE951CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB82BDC2-F85A-4503-BC61-61E7CE951CFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF604A39-ED10-4A08-855E-AA500D73E1E1}
 	EndGlobalSection
 EndGlobal

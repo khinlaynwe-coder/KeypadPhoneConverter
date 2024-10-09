@@ -1,4 +1,4 @@
-﻿namespace KeypadPhoneConverter.KeypadPhoneConverter
+﻿namespace KeypadPhoneConverter.Service.Utilities
 {
     public static class KeypadMapper
     {

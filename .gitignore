@@ -1,3 +1,7 @@
 .vs/
 KeypadPhoneConverter/bin/
 KeypadPhoneConverter/obj/
+KeypadPhoneConverter.Infrastructure/bin/
+KeypadPhoneConverter.Infrastructure/obj/
+KeypadPhoneConverter.Service/bin/
+KeypadPhoneConverter.Service/obj/
