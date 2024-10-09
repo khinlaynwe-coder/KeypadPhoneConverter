@@ -19,7 +19,7 @@ This project is designed with the following architecture.
 - **App**: Handles the overall flow of the app and coordinates dependencies.
 - **Service**: Contains the core logic and focuses on maintaining clean and testable logic.
 - **Infrastructure**: Provides a bridge between different layers to keep them decoupled.
-- **Data(Extendable)**: Can add Data layer if any input,output data is needed to stored in database without affecting the existing architecture.
+- **Data(Extendable)**: Can add Data layer if any input,output data is needed to store in database without affecting the existing architecture.
 
 ## Getting Started
 ### Prerequisites
