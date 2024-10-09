@@ -23,7 +23,7 @@ This project is designed with the following architecture.
 
 ## Getting Started
 ### Prerequisites
-- **.NET 8.0 SDK**  
+1. **.NET 8.0 SDK**  
   [Download .NET SDK](https://dotnet.microsoft.com/en-us/download)
 
 ### Installation
