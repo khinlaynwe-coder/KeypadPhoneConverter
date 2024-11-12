@@ -49,20 +49,22 @@ namespace KeypadPhoneConverter.Service.Services
 
         private static (string, char) CombineKeyToText(char currentKey, string text, char lastKeyLetter)
         {
+            var currentKeyLetter = '\0';
+
             if (lastKeyLetter == '\0' || currentKey != KeypadMapper.GetKey(lastKeyLetter))
             {
-                lastKeyLetter = KeypadMapper.GetFirstLetter(currentKey);
-                text += lastKeyLetter;
+                currentKeyLetter = KeypadMapper.GetFirstLetter(currentKey);
+                text += currentKeyLetter;
             }
             else
             {
-                lastKeyLetter = KeypadMapper.GetNextLetter(currentKey, lastKeyLetter);
-                text = lastKeyLetter == KeypadMapper.GetFirstLetter(currentKey)
-                       ? text + lastKeyLetter
-                       : RemoveLastLetterFrom(text) + lastKeyLetter;
+                currentKeyLetter = KeypadMapper.GetNextLetter(currentKey, lastKeyLetter);
+                text = currentKeyLetter == KeypadMapper.GetFirstLetter(currentKey)
+                       ? text + currentKeyLetter
+                       : RemoveLastLetterFrom(text) + currentKeyLetter;
             }
 
-            return (text, lastKeyLetter);
+            return (text, currentKeyLetter);
         }
 
         private static string RemoveLastLetterFrom(string text)
